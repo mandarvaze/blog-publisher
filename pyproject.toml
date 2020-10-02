@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "blog-publisher"
+version = "0.1.0"
+description = "A tool that lets you publish your blog to sites like dev.to, hashnode etc."
+authors = ["Mandar Vaze <mandarvaze@zoho.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+typer = "^0.3.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
